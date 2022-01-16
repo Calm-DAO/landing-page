@@ -1,12 +1,13 @@
+import Home from "./Components/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora facere
-        nihil distinctio laudantium ratione incidunt ea rem veniam sequi
-        recusandae?
-      </p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

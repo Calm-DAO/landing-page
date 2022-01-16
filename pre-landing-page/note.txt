@@ -1,0 +1,24 @@
+We can work off of https://www.olympusdao.finance/ as well for the pre-landing page. 
+
+Headers would be 
+Our logo + CalmDAO                       FAQs, Twitter Icon, Discord Icon, Medium Icon, Reddit Icon
+
+Link for FAQ: https://eric-choi.gitbook.io/calmdao/
+Link for Twitter: https://twitter.com/calmdao66
+Link for Discord: https://discord.gg/rXdeVczEbE
+Link for Medium: https://medium.com/@calmdao66
+Link for Reddit: I'll give you later
+
+Instead of "NEW OlyZaps Zap into...", we can say "Releasing Soon!"
+Instead of "The Decentralized Reserve Currency", we can say "The Most Stable Rebase Token in DeFi 2.0"
+Instead of "Olympus is building...", we can say "CalmDAO is a decentralized reserve currency protocol of Binance Smart Chain."
+On the right side of our message, we want a clear, big, and noticeable text "Join our Discord" with onclick function that goes to our Discord. 
+
+Below those, we'd want the text "Why CalmDAO?"
+And then we want "1. Doxxed and Competent Team", "2. Long-Term Growth with Reasonable APY", "3. Focus on Treasury", "4. Tokenomics"
+
+I think this would be good for the first step. I'll check the progress tomorrow morning (my time zone) and give you more instructions. 
+
+Please focus on maintaining the black and gold theme and making the website look professional. Also, please use Typescript and React and write detailed instructions on README so that I can easily follow you. 
+
+Let me know if you have any question working on it.
