@@ -6,7 +6,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import { IconButton } from "@mui/material";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 
 type Anchor = "right";
@@ -36,17 +36,29 @@ export default function MenuDrawer() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
+      style={{
+        boxShadow:
+          "rgb(0 0 0 / 7%) 0px 1px 2px, rgb(0 0 0 / 7%) 0px 2px 4px, rgb(0 0 0 / 7%) 0px 4px 8px, rgb(0 0 0 / 7%) 0px 8px 16px, rgb(0 0 0 / 7%) 0px 16px 32px, rgb(0 0 0 / 7%) 0px 32px 64px)",
+        height: "100%",
+      }}
     >
       <List style={{ marginTop: "50px" }}>
         <ListItem button>
           <ListItemText
             primary={
-              <Link
-                to="https://eric-choi.gitbook.io/calmdao/"
-                style={{ textDecoration: "none", color: "#000000" }}
+              <a
+                href="https://eric-choi.gitbook.io/calmdao/"
+                style={{
+                  textDecoration: "none",
+                  color: "#000000",
+                  paddingLeft: "15px",
+                  fontSize: "1.2rem",
+                  fontWeight: "bold",
+                }}
+                target="_blank"
               >
                 FAQs
-              </Link>
+              </a>
             }
           />
         </ListItem>
@@ -55,56 +67,60 @@ export default function MenuDrawer() {
             primary={
               <ul style={{ display: "flex" }}>
                 <li>
-                  <Link
-                    to="https://twitter.com/calmdao66"
+                  <a
+                    href="https://twitter.com/calmdao66"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
                       fontSize: "30px",
                       padding: "0 10px",
                     }}
+                    target="_blank"
                   >
                     <FaTwitter />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to="https://discord.gg/rXdeVczEbE"
+                  <a
+                    href="https://discord.gg/rXdeVczEbE"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
                       fontSize: "30px",
                       padding: "0 10px",
                     }}
+                    target="_blank"
                   >
                     <FaDiscord />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to="https://medium.com/@calmdao66"
+                  <a
+                    href="https://medium.com/@calmdao66"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
                       fontSize: "30px",
                       padding: "0 10px",
                     }}
+                    target="_blank"
                   >
                     <FaMedium />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to="/"
+                  <a
+                    href="/"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
                       fontSize: "30px",
                       padding: "0 10px",
                     }}
+                    target="_blank"
                   >
                     <FaReddit />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             }
@@ -118,7 +134,11 @@ export default function MenuDrawer() {
     <div>
       {(["right"] as const).map((anchor) => (
         <React.Fragment key={anchor}>
-          <IconButton aria-label="menu" onClick={toggleDrawer(anchor, true)}>
+          <IconButton
+            aria-label="menu"
+            onClick={toggleDrawer(anchor, true)}
+            style={{ color: "#ffffff" }}
+          >
             <MenuIcon />
           </IconButton>
           <Drawer

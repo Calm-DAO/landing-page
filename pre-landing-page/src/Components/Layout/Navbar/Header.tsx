@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
-import mainLogo from "../../../assets/logo.png";
+// import { Link, Outlet } from "react-router-dom";
+import Logo from "../../../assets/logo.png";
 import styles from "./Header.module.scss";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
             className={styles.header_left_content}
           >
             <>
-              <img src={mainLogo} alt="logo" className={styles.header_logo} />
+              <img src={Logo} alt="logo" className={styles.header_logo} />
               <Typography
                 variant="h6"
                 color="inherit"
@@ -51,9 +51,15 @@ const Header: React.FC = () => {
                   <nav className={styles.header_nav}>
                     <ul>
                       <li>
-                        <Link to="https://eric-choi.gitbook.io/calmdao/">
+                        <a
+                          href="https://eric-choi.gitbook.io/calmdao/"
+                          target="_blank"
+                        >
                           FAQs
-                        </Link>
+                        </a>
+                        {/* <Link to="https://eric-choi.gitbook.io/calmdao/">
+                          FAQs
+                        </Link> */}
                       </li>
                       {/* <li>
                       <Link to="/account/add">Add Account</Link>
@@ -69,34 +75,43 @@ const Header: React.FC = () => {
                     </li> */}
                     </ul>
                   </nav>
-                  <Outlet />
+                  {/* <Outlet /> */}
                 </>
                 <>
                   <nav className={styles.header_icon}>
                     <ul>
                       <li>
-                        <Link to="https://twitter.com/calmdao66">
+                        <a href="https://twitter.com/calmdao66" target="_blank">
                           <FaTwitter />
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://discord.gg/rXdeVczEbE">
+                        <a href="https://discord.gg/rXdeVczEbE" target="_blank">
                           <FaDiscord />
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="https://medium.com/@calmdao66">
+                        <a href="https://medium.com/@calmdao66" target="_blank">
                           <FaMedium />
-                        </Link>
+                        </a>
                       </li>
                       <li>
-                        <Link to="/">
+                        <a href="/">
                           <FaReddit />
-                        </Link>
+                        </a>
                       </li>
+                      {/* <li>
+                        <a
+                          href="https://discord.gg/rXdeVczEbE"
+                          target="_blank"
+                          className={styles.discord_button}
+                        >
+                          Join our Discord
+                        </a>
+                      </li> */}
                     </ul>
                   </nav>
-                  <Outlet />
+                  {/* <Outlet /> */}
                 </>
               </>
             ) : (

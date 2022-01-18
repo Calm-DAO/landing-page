@@ -1,5 +1,7 @@
 .header_wrapper {
-  background-color: rgba(109, 134, 149, 0.58);
+  // background-color: #a9a9a9;
+  z-index: 999;
+  background-color: #000000c7;
   position: fixed;
   left: 0;
   top: 0;
@@ -24,7 +26,7 @@
       .header_title {
         font-size: 1.5rem;
         font-weight: bold;
-        color: #fff;
+        color: #ffc555;
       }
     }
     .header_right_content {
@@ -46,7 +48,7 @@
               padding: 20px;
               transition: all 0.3s ease-in-out;
               &:hover {
-                color: #000;
+                color: #ffc555;
               }
             }
           }
@@ -65,10 +67,25 @@
               font-weight: 600;
               color: #fff;
               font-size: 30px;
-              padding: 0px 10px;
+              padding: 0px 15px;
               transition: all 0.3s ease-in-out;
               &:hover {
-                color: #000;
+                color: #ffc555;
+              }
+            }
+            .discord_button {
+              padding: 8px 16px;
+              border-radius: 8rem;
+              background-color: #ffc768;
+              -webkit-transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
+              transition: color 0.2s ease-in-out,
+                background-color 0.2s ease-in-out;
+              color: #000;
+              font-weight: 600;
+              font-size: 16px;
+              &:hover {
+                color: #000000;
               }
             }
           }
