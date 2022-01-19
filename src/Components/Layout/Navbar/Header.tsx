@@ -1,7 +1,7 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 // import { Link, Outlet } from "react-router-dom";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.svg";
 import styles from "./Header.module.scss";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";

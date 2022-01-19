@@ -1,6 +1,6 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import Logo from "../../../assets/logo.png";
+import Logo from "../../../assets/logo.svg";
 import styles from "./Footer.module.scss";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 // import { Link } from "react-router-dom";
