@@ -102,7 +102,7 @@ const StakingAPY: React.FC = () => {
             color="inherit"
             className={styles.secondan_part_title}
           >
-            CalmDAO will maintain 4-digit APY as long as possible.
+            CalmDAO will maintain 3-digit APY as long as possible.
           </Typography>
         </Grid>
       </Container>
