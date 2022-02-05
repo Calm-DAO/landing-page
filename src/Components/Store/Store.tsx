@@ -33,8 +33,9 @@ const Store: React.FC = () => {
             </Typography>
             <br />
             <Typography variant="subtitle1" color="inherit">
-              You can enjoy all the benefits of rebase tokens and we'll sell
-              NFTs to increase the treasury balance.
+              CALM will be used for NFT transactions. Whether you’re an NFT
+              collector, an NFT artist, or a regular investor, you can enjoy all
+              the benefits of rebase tokens by staking CALM.
             </Typography>
           </Grid>
         </Grid>

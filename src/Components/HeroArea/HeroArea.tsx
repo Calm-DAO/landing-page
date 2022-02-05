@@ -18,14 +18,14 @@ const HeroArea: React.FC = () => {
             <div className={styles.heroArea_info}>
               <Typography variant="h5" color="inherit">
                 {/* The Decentralized Reserve Currency */}
-                The Most Stable Rebase Token in DeFi 2.0
+                The Decentralized Reserve Currency for Platforms
               </Typography>
               <Typography variant="h6" color="inherit">
                 {/* Olympus is building a community-owned decentralized financial
                 infrastructure to bring more stability and transparency for the
                 world. */}
-                CalmDAO is a decentralized reserve currency protocol of Binance
-                Smart Chain with unique Tokenomics (DeFi 2.0 + NFT)
+                CalmDAO is the most stable rebase token in DeFi 2.0 used in NFT
+                marketplaces and other platforms.
               </Typography>
             </div>
           </Grid>
@@ -46,7 +46,7 @@ const HeroArea: React.FC = () => {
                 color="primary"
                 className={styles.heroArea_rightButton}
               >
-                Join Our Discord Early
+                Join Our Discord
               </Button>
             </a>
           </Grid>

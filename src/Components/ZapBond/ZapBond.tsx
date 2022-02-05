@@ -22,8 +22,8 @@ const ZapBond: React.FC = () => {
               className={styles.zapBond_left_description}
             >
               It's all about increasing the treasury balance. By selling bonds,
-              earning LP fees, and selling NFTs, we'll focus on growing the
-              treasury balance.
+              earning LP fees, and integrating with NFT marketplaces, we'll
+              focus on growing the treasury balance.
             </Typography>
             {/* <div className={styles?.button_wrapper}>
               <Button

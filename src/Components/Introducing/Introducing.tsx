@@ -19,16 +19,15 @@ const Introducing: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_title}
             >
-              Real Team, Real Product
+              Real Team, Real Product With The Long-Term Vision
             </Typography>
             <Typography
               variant="subtitle1"
               color="inherit"
               className={styles.introduc_left_description}
             >
-              {`We've implemented codes ourselves, unlike other OHM forks that
-              hire contractors to copy codes. 
-              We are the engineers.`}
+              {`We are the engineers. We’re here for the long term until CalmDAO becomes a reserve currency for platforms. 
+`}
             </Typography>
             <a
               href="https://docs.calmdao.finance/"
