@@ -2,10 +2,8 @@ import React from "react";
 import {
   Layout,
   HeroArea,
-  Portraait,
   Introducing,
   ZapBond,
-  Works,
   Store,
   StakingAPY,
 } from "./index";
