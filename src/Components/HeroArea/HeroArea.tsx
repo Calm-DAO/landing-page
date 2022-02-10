@@ -18,14 +18,14 @@ const HeroArea: React.FC = () => {
             <div className={styles.heroArea_info}>
               <Typography variant="h5" color="inherit">
                 {/* The Decentralized Reserve Currency */}
-                The Decentralized Reserve Currency for Platforms
+                The Decentralized Reserve Currency for NFT Transactions
               </Typography>
               <Typography variant="h6" color="inherit">
                 {/* Olympus is building a community-owned decentralized financial
                 infrastructure to bring more stability and transparency for the
                 world. */}
-                CalmDAO is the most stable rebase token in DeFi 2.0 used in NFT
-                marketplaces and other platforms.
+                CALM is the most stable rebase token in DeFi 2.0 used for NFT
+                transactions.
               </Typography>
             </div>
           </Grid>
