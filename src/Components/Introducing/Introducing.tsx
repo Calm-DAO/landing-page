@@ -19,14 +19,15 @@ const Introducing: React.FC = () => {
               color="inherit"
               className={styles.introduc_left_title}
             >
-              Real Team, Real Product With The Long-Term Vision
+              Like Levi's in the Gold Rush
             </Typography>
             <Typography
               variant="subtitle1"
               color="inherit"
               className={styles.introduc_left_description}
             >
-              {`We are the engineers. We’re here for the long term until CalmDAO becomes a reserve currency for platforms. 
+              {` NFT artists are gold miners. We supercharge them by adding utility in ther NFTs.
+							Distribute CALM to NFT holders and let them enjoy the staking profit while holding your beautiful NFTs.  
 `}
             </Typography>
             <a
