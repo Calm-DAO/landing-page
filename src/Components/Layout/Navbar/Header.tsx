@@ -60,7 +60,14 @@ const Header: React.FC = () => {
                         {/* <Link to="https://eric-choi.gitbook.io/calmdao/">
                           FAQs
                         </Link> */}
+                        <a
+                          href="https://medium.com/@calmdao66/calmdao-roadmap-defi-2-0-nft-e705194deb8c"
+                          target="_blank"
+                        >
+                          RoadMap
+                        </a>
                       </li>
+
                       {/* <li>
                       <Link to="/account/add">Add Account</Link>
                     </li>
