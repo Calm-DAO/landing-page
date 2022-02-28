@@ -27,7 +27,7 @@ const Introducing: React.FC = () => {
               className={styles.introduc_left_description}
             >
               {` NFT artists are gold miners. We supercharge them by adding utility in ther NFTs.
-							Distribute CALM to NFT holders and let them enjoy the staking profit while holding your beautiful NFTs.  
+							Purchase CALM with the minting price, distribute it to NFT holders, and let them enjoy the staking profit while holding your beautiful NFTs.  
 `}
             </Typography>
             <a
