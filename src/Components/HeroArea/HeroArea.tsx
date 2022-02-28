@@ -30,7 +30,7 @@ const HeroArea: React.FC = () => {
               <img
                 src={polygonImage}
                 alt="Powered by Polygon"
-                style={{ marginLeft: "-10px" }}
+                style={{ marginLeft: "-9px" }}
               />
             </div>
           </Grid>
