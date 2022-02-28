@@ -21,8 +21,9 @@ const ZapBond: React.FC = () => {
               color="inherit"
               className={styles.zapBond_left_description}
             >
-              It's all about increasing the treasury balance. By selling bonds,
-              earning LP fees, and integrating with NFT marketplaces, we'll
+              It's all about increasing the treasury balance. By letting
+              customers mint CALM, earning LP fees, and integrating with NFT
+              marketplaces and artists to increase the demand for CALM, we'll
               focus on growing the treasury balance.
             </Typography>
             {/* <div className={styles?.button_wrapper}>

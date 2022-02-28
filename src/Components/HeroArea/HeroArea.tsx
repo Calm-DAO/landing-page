@@ -21,9 +21,6 @@ const HeroArea: React.FC = () => {
                 The Decentralized Reserve Currency for NFT Transactions
               </Typography>
               <Typography variant="h6" color="inherit">
-                {/* Olympus is building a community-owned decentralized financial
-                infrastructure to bring more stability and transparency for the
-                world. */}
                 CALM is the most stable rebase token in DeFi 2.0 used for NFT
                 transactions.
               </Typography>
