@@ -1,7 +1,7 @@
 import { Container, Grid, Typography, Button } from "@mui/material";
 import React from "react";
 import styles from "./HeroArea.module.scss";
-import arrayImage from "../../assets/array.svg";
+import polygonImage from "../../assets/poweredByPolygon.png";
 
 const HeroArea: React.FC = () => {
   return (
@@ -27,6 +27,11 @@ const HeroArea: React.FC = () => {
                 CALM is the most stable rebase token in DeFi 2.0 used for NFT
                 transactions.
               </Typography>
+              <img
+                src={polygonImage}
+                alt="Powered by Polygon"
+                style={{ marginLeft: "-10px" }}
+              />
             </div>
           </Grid>
           <Grid
