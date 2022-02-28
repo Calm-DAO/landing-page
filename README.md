@@ -1,3 +1,7 @@
+# ☮️ CalmDAO Landing Page
+
+This the landing page for CalmDAO, the decentralized reserve currency for NFT transactions.
+
 ## Getting Started
 
 First, run the development server:
