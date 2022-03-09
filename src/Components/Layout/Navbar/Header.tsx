@@ -7,6 +7,8 @@ import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 import MenuDrawer from "./MenuDrawer";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
+import whitePaper from "../../../assets/CalmDAO_Whitepaper.pdf";
+
 const Header: React.FC = () => {
   const matches = useMediaQuery("(min-width:900px)");
   return (
@@ -51,20 +53,14 @@ const Header: React.FC = () => {
                   <nav className={styles.header_nav}>
                     <ul>
                       <li>
+                        <a href={whitePaper} target="_blank" rel="noreferrer">
+                          Whitepaper
+                        </a>
                         <a
                           href="https://eric-choi.gitbook.io/calmdao/"
                           target="_blank"
                         >
                           FAQs
-                        </a>
-                        {/* <Link to="https://eric-choi.gitbook.io/calmdao/">
-                          FAQs
-                        </Link> */}
-                        <a
-                          href="https://medium.com/@calmdao66/calmdao-roadmap-defi-2-0-nft-e705194deb8c"
-                          target="_blank"
-                        >
-                          RoadMap
                         </a>
                       </li>
 
