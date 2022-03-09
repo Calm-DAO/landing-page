@@ -9,6 +9,8 @@ import { IconButton } from "@mui/material";
 // import { Link } from "react-router-dom";
 import { FaDiscord, FaMedium, FaTwitter, FaReddit } from "react-icons/fa";
 
+import whitePaper from "../../../assets/CalmDAO_Whitepaper.pdf";
+
 type Anchor = "right";
 
 export default function MenuDrawer() {
@@ -46,19 +48,35 @@ export default function MenuDrawer() {
         <ListItem button>
           <ListItemText
             primary={
-              <a
-                href="https://eric-choi.gitbook.io/calmdao/"
-                style={{
-                  textDecoration: "none",
-                  color: "#000000",
-                  paddingLeft: "15px",
-                  fontSize: "1.2rem",
-                  fontWeight: "bold",
-                }}
-                target="_blank"
-              >
-                FAQs
-              </a>
+              <li>
+                <a
+                  href={whitePaper}
+                  style={{
+                    textDecoration: "none",
+                    color: "#000000",
+                    paddingLeft: "15px",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Whitepaper
+                </a>
+                <a
+                  href="https://docs.calmdao.finance/"
+                  style={{
+                    textDecoration: "none",
+                    color: "#000000",
+                    paddingLeft: "15px",
+                    fontSize: "1.2rem",
+                    fontWeight: "bold",
+                  }}
+                  target="_blank"
+                >
+                  FAQs
+                </a>
+              </li>
             }
           />
         </ListItem>

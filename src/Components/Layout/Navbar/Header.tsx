@@ -56,10 +56,7 @@ const Header: React.FC = () => {
                         <a href={whitePaper} target="_blank" rel="noreferrer">
                           Whitepaper
                         </a>
-                        <a
-                          href="https://eric-choi.gitbook.io/calmdao/"
-                          target="_blank"
-                        >
+                        <a href="https://docs.calmdao.finance/" target="_blank">
                           FAQs
                         </a>
                       </li>
