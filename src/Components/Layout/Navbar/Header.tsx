@@ -81,7 +81,7 @@ const Header: React.FC = () => {
                   <nav className={styles.header_icon}>
                     <ul>
                       <li>
-                        <a href="https://twitter.com/calmdao66" target="_blank">
+                        <a href="https://twitter.com/calm_dao" target="_blank">
                           <FaTwitter />
                         </a>
                       </li>

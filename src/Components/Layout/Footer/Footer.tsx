@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
               <ul style={{ display: "flex" }}>
                 <li>
                   <a
-                    href="https://twitter.com/calmdao66"
+                    href="https://twitter.com/calm_dao"
                     style={{
                       textDecoration: "none",
                       color: "#000000",
