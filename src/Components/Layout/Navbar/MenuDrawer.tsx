@@ -126,7 +126,7 @@ export default function MenuDrawer() {
                     <FaMedium />
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="/"
                     style={{
@@ -139,7 +139,7 @@ export default function MenuDrawer() {
                   >
                     <FaReddit />
                   </a>
-                </li>
+                </li> */}
               </ul>
             }
           />
